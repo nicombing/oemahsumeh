@@ -14,7 +14,7 @@ export default function Home() {
           <div className={`${styles.navLinks} ${styles.headline}`}>
             <a className={styles.navLinkActive} href="#">Home</a>
             <a className={styles.navLink} href="#">Our Programs</a>
-            <a className={styles.navLink} href="#">The Smile Centre</a>
+            {/* <a className={styles.navLink} href="#">The Smile Centre</a> */}
             <a className={styles.navLink} href="#">Contact</a>
           </div>
           <button className={`${styles.navButton} ${styles.headline}`}>
@@ -224,11 +224,11 @@ export default function Home() {
             </div>
             <div className={styles.featureCard}>
               <div className={styles.featureIconBox}>
-                <span className={`material-symbols-outlined ${styles.featureIcon}`}>verified_user</span>
+                <span className={`material-symbols-outlined ${styles.featureIcon}`}>family_restroom</span>
               </div>
-              <h3 className={`${styles.cardTitle} ${styles.headline}`}>Professional Affiliation</h3>
+              <h3 className={`${styles.cardTitle} ${styles.headline}`}>Family-Centered Care</h3>
               <p className={`${styles.cardDesc} ${styles.bodyText}`} style={{ marginBottom: "0" }}>
-                Backing from The Smile Centre ensures all our programs meet the highest clinical psychiatric and medical standards for your safety and results.
+                Our programs are designed to heal not just the individual, but also the relationships and family dynamics that support long-term well-being.
               </p>
             </div>
             <div className={styles.featureCard}>
@@ -290,35 +290,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Clinical Affiliation */}
-        <section className={styles.clinicalSection}>
-          <div className={styles.clinicalContainer}>
-            <div className={styles.clinicalImageWrapper}>
-              <div className={styles.clinicalImageBg}></div>
-              <img alt="The Smile Centre Facility" className={styles.clinicalImage} src="https://lh3.googleusercontent.com/aida-public/AB6AXuAwnJ2sWmA_qKfpHH7PxjO5hdsMzuUmeIisy8YrkEj5yBJqd7orxE8rUayUGN97AxRL4AGxW26UiEbKKqtad_wB8OByL0p0RsXQ9KyeXL9lw5cae6fA2vEPS75ufH6yoxx-d2PNuC5VVnkDsUmUkWJejkfQ-riCx0Gld2gaJFe0KEGGB6efoywOdrE-ke-5zQLp90k7JbutL5hzsomFdi_uceCv6c45IqwEN846j6BLDN0TAWs3h5Vhecrq0KrYs7oUaNIHVpU-0Ok" />
-            </div>
-            <div className={styles.clinicalContent}>
-              <h2 className={`${styles.clinicalTitle} ${styles.headline}`}>Backed by The Smile Centre.</h2>
-              <p className={styles.clinicalDesc}>
-                While our environment is focused on tranquility, our foundation is clinical excellence. Oemah Sumeh is seamlessly integrated with The Smile Centre, ensuring every guest has access to world-class psychological and medical standards.
-              </p>
-              <ul className={styles.impactList}>
-                <li className={styles.impactListItem}>
-                  <span className={`material-symbols-outlined ${styles.impactIcon}`} style={{ fontVariationSettings: "'FILL' 1" }}>check_circle</span>
-                  <div style={{ alignSelf: "center", fontWeight: "600", color: "var(--color-on-surface-variant)"}}>Certified Psychiatric Oversight</div>
-                </li>
-                <li className={styles.impactListItem}>
-                  <span className={`material-symbols-outlined ${styles.impactIcon}`} style={{ fontVariationSettings: "'FILL' 1" }}>check_circle</span>
-                  <div style={{ alignSelf: "center", fontWeight: "600", color: "var(--color-on-surface-variant)"}}>Evidence-Based Therapeutic Protocols</div>
-                </li>
-                <li className={styles.impactListItem}>
-                  <span className={`material-symbols-outlined ${styles.impactIcon}`} style={{ fontVariationSettings: "'FILL' 1" }}>check_circle</span>
-                  <div style={{ alignSelf: "center", fontWeight: "600", color: "var(--color-on-surface-variant)"}}>24/7 Professional Medical Support</div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
       </main>
 
       {/* Footer */}
@@ -365,7 +336,7 @@ export default function Home() {
             <nav className={styles.footerNav}>
               <a className={`${styles.footerNavLink} ${styles.bodyText}`} href="#">Privacy Policy</a>
               <a className={`${styles.footerNavLink} ${styles.bodyText}`} href="#">Terms of Service</a>
-              <a className={`${styles.footerNavLink} ${styles.bodyText}`} href="#">The Smile Centre Portal</a>
+              {/* <a className={`${styles.footerNavLink} ${styles.bodyText}`} href="#">The Smile Centre Portal</a> */}
               <a className={`${styles.footerNavLink} ${styles.bodyText}`} href="#">Contact Support</a>
             </nav>
             <div className={styles.footerBottom}>
