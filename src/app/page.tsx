@@ -7,7 +7,10 @@ export default function Home() {
       {/* TopNavBar */}
       <nav className={styles.navbar}>
         <div className={styles.navContainer}>
-          <div className={`${styles.navLogo} ${styles.headline}`}>Oemah Sumeh</div>
+          <div className={`${styles.navLogo} ${styles.headline}`}>
+            <Image src="/logo.png" alt="Oemah Sumeh Logo" width={40} height={40} className={styles.logoImg} />
+            <span>Oemah Sumeh</span>
+          </div>
           <div className={`${styles.navLinks} ${styles.headline}`}>
             <a className={styles.navLinkActive} href="#">Home</a>
             <a className={styles.navLink} href="#">Our Programs</a>
@@ -322,7 +325,10 @@ export default function Home() {
       <footer className={styles.footer}>
         <div className={styles.footerContainer}>
           <div className={styles.footerCol}>
-            <div className={`${styles.footerTitle} ${styles.headline}`} style={{ fontSize: "1.5rem" }}>Oemah Sumeh</div>
+            <div className={`${styles.footerTitle} ${styles.headline}`} style={{ fontSize: "1.5rem", display: "flex", alignItems: "center", gap: "0.5rem" }}>
+              <Image src="/logo.png" alt="Oemah Sumeh Logo" width={32} height={32} />
+              Oemah Sumeh
+            </div>
             <p className={`${styles.footerText} ${styles.bodyText}`}>
               Your journey to mental wellness begins with a single, courageous step. Reach out to us for a confidential conversation.
             </p>

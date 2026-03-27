@@ -38,6 +38,15 @@
   font-weight: 700;
   color: var(--color-surface-tint);
   letter-spacing: -0.025em;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logoImg {
+  object-fit: contain;
+  /* Apply a filter to make the white logo visible on light background (sage green-ish) */
+  filter: brightness(0) saturate(100%) invert(35%) sepia(42%) saturate(417%) hue-rotate(33deg) brightness(92%) contrast(89%);
 }
 
 .navLinks {
